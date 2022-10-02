@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://servidor.com/" targetNamespace="http://servidor.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="candidatos" type="tns:candidatos" />
+  <xs:element name="candidatosResponse" type="tns:candidatosResponse" />
+  <xs:element name="eliminarCandidato" type="tns:eliminarCandidato" />
+  <xs:element name="eliminarCandidatoResponse" type="tns:eliminarCandidatoResponse" />
+  <xs:element name="insertarCandidato" type="tns:insertarCandidato" />
+  <xs:element name="insertarCandidatoResponse" type="tns:insertarCandidatoResponse" />
+  <xs:element name="insertarCiudadano" type="tns:insertarCiudadano" />
+  <xs:element name="insertarCiudadanoResponse" type="tns:insertarCiudadanoResponse" />
+  <xs:element name="modificarCandidato" type="tns:modificarCandidato" />
+  <xs:element name="modificarCandidatoResponse" type="tns:modificarCandidatoResponse" />
+  <xs:element name="mostrarCandidatos" type="tns:mostrarCandidatos" />
+  <xs:element name="mostrarCandidatosResponse" type="tns:mostrarCandidatosResponse" />
+  <xs:complexType name="insertarCiudadano">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="nombreCiudadano" type="xs:string" />
+      <xs:element minOccurs="0" name="apellidoPaterno" type="xs:string" />
+      <xs:element minOccurs="0" name="apellidoMaterno" type="xs:string" />
+      <xs:element minOccurs="0" name="claveElectoral" type="xs:string" />
+      <xs:element minOccurs="0" name="domicilio" type="xs:string" />
+      <xs:element minOccurs="0" name="seccion" type="xs:string" />
+      <xs:element minOccurs="0" name="vigencia" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarCiudadanoResponse">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="candidatos">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="claveElectoral" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="candidatosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarCandidato">
+    <xs:sequence>
+      <xs:element name="idCandidato" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarCandidatoResponse">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="mostrarCandidatos">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="mostrarCandidatosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarCandidato">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="claveElectoral" type="xs:string" />
+      <xs:element minOccurs="0" name="partido" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarCandidatoResponse">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="modificarCandidato">
+    <xs:sequence>
+      <xs:element name="idCandidato" type="xs:int" />
+      <xs:element minOccurs="0" name="partido" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarCandidatoResponse">
+    <xs:sequence />
+  </xs:complexType>
+</xs:schema>

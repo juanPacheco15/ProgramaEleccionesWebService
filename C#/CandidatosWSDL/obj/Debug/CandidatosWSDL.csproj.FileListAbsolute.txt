@@ -1,0 +1,11 @@
+C:\Users\javie\source\repos\CandidatosWSDL\bin\Debug\CandidatosWSDL.exe.config
+C:\Users\javie\source\repos\CandidatosWSDL\bin\Debug\CandidatosWSDL.exe
+C:\Users\javie\source\repos\CandidatosWSDL\bin\Debug\CandidatosWSDL.pdb
+C:\Users\javie\source\repos\CandidatosWSDL\obj\Debug\CandidatosWSDL.csproj.AssemblyReference.cache
+C:\Users\javie\source\repos\CandidatosWSDL\obj\Debug\CandidatosWSDL.csproj.SuggestedBindingRedirects.cache
+C:\Users\javie\source\repos\CandidatosWSDL\obj\Debug\CandidatosWSDL.Form1.resources
+C:\Users\javie\source\repos\CandidatosWSDL\obj\Debug\CandidatosWSDL.Properties.Resources.resources
+C:\Users\javie\source\repos\CandidatosWSDL\obj\Debug\CandidatosWSDL.csproj.GenerateResource.cache
+C:\Users\javie\source\repos\CandidatosWSDL\obj\Debug\CandidatosWSDL.csproj.CoreCompileInputs.cache
+C:\Users\javie\source\repos\CandidatosWSDL\obj\Debug\CandidatosWSDL.exe
+C:\Users\javie\source\repos\CandidatosWSDL\obj\Debug\CandidatosWSDL.pdb
